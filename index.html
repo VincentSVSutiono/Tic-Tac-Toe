@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <form>
+        <p>Enter Name</p>
+        <div>
+          <label for="p1">Player One: </label>
+          <input type="text" id="p1" />
+        </div>
+        <div>
+          <label for="p2">Player Two: </label>
+          <input type="text" id="p2" />
+        </div>
+        <button type="submit">Start</button>
+      </form>
+      <div class="game">
+        <h1 class="turn"></h1>
+        <div class="board"></div>
+        <div class="result">
+          <p class="winMsg"></p>
+          <button class="reset-btn" type="button">Reset</button>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
